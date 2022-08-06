@@ -1,0 +1,65 @@
+@font-face {
+    font-family: CocoGooseThin;
+    src: url(./Cocogoose\ Pro\ Thin-trial.ttf);
+}
+@font-face{
+    font-family: Heavitas;
+    src: url(/Heavitas.ttf);
+}
+html{
+
+    font-size: 62.5%;
+    background: linear-gradient(90deg, rgba(59,154,225,1) 0%, rgba(33,225,225,1) 100%);;
+}
+
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+.container{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+    width: auto;
+    height: auto;
+}
+.city{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    color: #ecf2f5;
+    font-family: Heavitas;
+    font-size: 5rem; 
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.cloudDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 4rem;
+}
+.cloud{
+
+    width: 25rem;
+    height: 20rem;
+}
+
+.temperature{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    color: #ecf2f5;
+    font-family: CocoGooseThin;
+    font-size: 6rem; 
+    font-weight: bolder;
+    margin-top: 5rem;
+}
