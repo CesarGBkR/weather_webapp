@@ -44,10 +44,9 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
 .cloud{
-
     width: 25rem;
     height: 20rem;
 }
@@ -61,5 +60,13 @@ body{
     font-family: CocoGooseThin;
     font-size: 6rem; 
     font-weight: bolder;
-    margin-top: 5rem;
+    margin-top: 8rem;
+}
+.temperatureMax{
+    font-size: 4rem; 
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+.temperatureMin{
+    margin-top: 1rem;
 }

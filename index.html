@@ -4,14 +4,19 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="./script.js"></script>
         <link rel="stylesheet" href="styles.css">
         <title>Weather App</title>
     </head>
     <body>
         <div class="container" id="container">
-            <div class="city">Mexico</div>
+            <div class="city" id="country">Mexico</div>
             <div class="cloudDiv"><img src="/cloud.png" alt="cloud" class="cloud"></div>
-            <div class="temperature">30°</div>
+            <div class="temperature" id="temperature">30°</div>
+            <div class="temperature temperatureMax" id="temperatureMin">30°</div>
+            <div class="temperature temperatureMax temperatureMin" id="temperatureMax">30°</div>
+            <button onclick="fetchWeather()">fetch</button>
         </div>
     </body>
+    <script src="script.js"></script>
 </html>
