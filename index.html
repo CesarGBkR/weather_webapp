@@ -10,12 +10,17 @@
     </head>
     <body>
         <div class="container" id="container">
-            <div class="city" id="country">Mexico</div>
+            <for>
+                <input type="text" class="city" id="country" value="Country">
+            </form>
+            <button class="lupa" onclick="fetchWeather()">search</button>
+            <!-- <img src="/lupa.png" alt="lupa" class="lupa"> -->
+            <!-- <div class="city" id="country">Mexico</div> -->
             <div class="cloudDiv"><img src="/cloud.png" alt="cloud" class="cloud"></div>
             <div class="temperature" id="temperature">30°</div>
-            <div class="temperature temperatureMax" id="temperatureMin">30°</div>
             <div class="temperature temperatureMax temperatureMin" id="temperatureMax">30°</div>
-            <button onclick="fetchWeather()">fetch</button>
+            <div class="temperature temperatureMax" id="temperatureMin">30°</div>
+            <!-- <button onclick="fetchWeather()">fetch</button> -->
         </div>
     </body>
     <script src="script.js"></script>
